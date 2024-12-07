@@ -1,0 +1,26 @@
+fieldset form div{
+    display: flex;
+    gap:15px;
+}
+fieldset form div  input{
+    width:200px;
+}
+
+fieldset form{
+    gap:15px;
+}
+fieldset{
+    width:350px;
+}
+main, header, fieldset, form, footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer{
+    background-color: black;
+    color: wheat;
+    margin-top:15%;
+}
